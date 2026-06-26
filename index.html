@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbershop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">Barbershop</a>
+      <ul class="nav-links">
+        <li><a href="#features">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#booking" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <!-- Save your barbershop tools photo as hero-bg.jpg in this folder -->
+    <section class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow">Premium Barbershop</span>
+        <h1>Barbershop</h1>
+        <p class="hero-sub">Where precision meets craft. Every cut, every time.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary">Book an Appointment</a>
+          <a href="#gallery" class="btn btn-ghost">View Our Work</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="label">What We Offer</span>
+          <h2>Everything in One Place</h2>
+        </div>
+        <div class="features-grid">
+          <a class="feature-card fade-up" href="#reviews">
+            <div class="feature-num">01</div>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <h3>Google Reviews</h3>
+            <p>Verified feedback from real clients. Consistently rated 5 stars for quality and experience.</p>
+          </a>
+          <a class="feature-card fade-up" href="#booking">
+            <div class="feature-num">02</div>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <h3>Online Booking</h3>
+            <p>Reserve your seat in seconds. Pick your time and service — no waiting, no calls.</p>
+          </a>
+          <a class="feature-card fade-up" href="#gallery">
+            <div class="feature-num">03</div>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="6" cy="6" r="3"/>
+                <circle cx="6" cy="18" r="3"/>
+                <line x1="20" y1="4" x2="8.12" y2="15.88"/>
+                <line x1="14.47" y1="14.48" x2="20" y2="20"/>
+                <line x1="8.12" y1="8.12" x2="12" y2="12"/>
+              </svg>
+            </div>
+            <h3>Haircut Gallery</h3>
+            <p>Browse the full portfolio. Fades, tapers, classics — every style documented.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="label">The Work</span>
+          <h2>Fresh Cuts. Consistent Results.</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item fade-up">
+            <img src="https://beardburys.com/img/cms/high-fade-hombre-beardburys.jpg" alt="Fade cut">
+            <div class="gallery-label">Fade</div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://cdn1.npcdn.net/images/1729482448e289a25ef63cb0bf5be609efdba8bbd8.webp?md5id=1192007d993f13fc9de7ce32bd9bab16&new_width=1000&new_height=1000&size=max&w=1780047466&from=jpeg&type=10" alt="Skin fade">
+            <div class="gallery-label">Skin Fade</div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://i0.wp.com/therighthairstyles.com/wp-content/uploads/2024/05/1-mid-length-blowout-cut-for-young-men.jpg?resize=1080%2C1350&ssl=1" alt="Taper">
+            <div class="gallery-label">Taper</div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://cdn.prod.website-files.com/5cb569e54ca2fddd5451cbb2/5f8e7707ad6d75eda371136b_Cannington-120.jpg" alt="Beard trim">
+            <div class="gallery-label">Beard Trim</div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDv2szNVN3f2C27rn1LSXoBl9NfXQdBI3ImccOamM_pgd6-2Bt9h5OzjL-&s=10" alt="Classic cut">
+            <div class="gallery-label">Classic Cut</div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1vMkvfJhZmj9W8EbtRVUFPTsUccJqpm6yjbn-cDiG-Q&s=10" alt="Line up">
+            <div class="gallery-label">Line Up</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="label">Client Reviews</span>
+          <h2>What People Are Saying</h2>
+        </div>
+        <div class="reviews-layout fade-up">
+
+          <div class="reviews-cards">
+            <!-- Replace text with your real Google reviews -->
+            <div class="review-card">
+              <div class="review-top">
+                <div class="reviewer-avatar">M</div>
+                <div class="reviewer-meta">
+                  <span class="reviewer-name">Mark V.</span>
+                  <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <span class="review-source">Google</span>
+              </div>
+              <p class="review-text">"If you're looking for a fresh cut and a high-quality grooming experience, look no further. Best barbershop around."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-top">
+                <div class="reviewer-avatar">G</div>
+                <div class="reviewer-meta">
+                  <span class="reviewer-name">Graeson L.</span>
+                  <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <span class="review-source">Google</span>
+              </div>
+              <p class="review-text">"Hands down the best barbers here. Every time it's time for a cut they never disappoint — consistent, clean, professional."</p>
+            </div>
+            <div class="review-card">
+              <div class="review-top">
+                <div class="reviewer-avatar">J</div>
+                <div class="reviewer-meta">
+                  <span class="reviewer-name">Joshua H.</span>
+                  <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <span class="review-source">Google</span>
+              </div>
+              <p class="review-text">"I've been to other barbers but it's not the same. Every time it's time for a fade he never disappoints!"</p>
+            </div>
+            <div class="review-card">
+              <div class="review-top">
+                <div class="reviewer-avatar">P</div>
+                <div class="reviewer-meta">
+                  <span class="reviewer-name">Philip T.</span>
+                  <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <span class="review-source">Google</span>
+              </div>
+              <p class="review-text">"True artists who treat every haircut like a masterpiece. The attention to detail is unmatched."</p>
+            </div>
+          </div>
+
+          <div class="embed-wrap reviews-map">
+            <!--
+              Replace src with your actual Google Maps embed URL:
+              Google Maps > your listing > Share > Embed a map > copy src
+            -->
+            <iframe
+              src="https://maps.google.com/maps?q=Gill+Barber+7215+Goreway+Dr+%231c17+Mississauga+ON+L4T+0B4&output=embed"
+              title="Barbershop on Google Maps"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="section booking" id="booking">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="label">Reserve Your Seat</span>
+          <h2>Book an Appointment</h2>
+        </div>
+        <div class="embed-wrap fade-up">
+          <!--
+            Replace src with your Setmore booking URL:
+            Setmore Dashboard > Apps & Integrations > Booking Page > Share
+          -->
+          <iframe
+            src="https://gillbarber.setmore.com"
+            class="booking-iframe"
+            title="Book an appointment at Barbershop"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="nav-logo" href="#hero">Barbershop</a>
+          <p>Premium grooming. Every visit.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#features">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#booking">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <ul>
+            <li>7215 Goreway Dr #1c17</li>
+            <li>Mississauga, ON L4T 0B4</li>
+            <li><a href="tel:+16476799829">(647) 679-9829</a></li>
+          </ul>
+          <h4 class="hours-label">Hours</h4>
+          <ul class="hours-list">
+            <li><span>Monday</span><span>9 a.m. – 9 p.m.</span></li>
+            <li><span>Tuesday</span><span>9 a.m. – 9 p.m.</span></li>
+            <li><span>Wednesday</span><span>9 a.m. – 9 p.m.</span></li>
+            <li><span>Thursday</span><span>9 a.m. – 9 p.m.</span></li>
+            <li><span>Friday</span><span>9 a.m. – 9 p.m.</span></li>
+            <li><span>Saturday</span><span>9 a.m. – 8 p.m.</span></li>
+            <li><span>Sunday</span><span>9 a.m. – 7 p.m.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Barbershop. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
